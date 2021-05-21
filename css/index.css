@@ -11,7 +11,7 @@ body {
 h1 {
     color: white;
     text-align: center;
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 600;
     animation: typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
@@ -49,12 +49,12 @@ p {
 
 img {
     height: 300px;
-    border: solid white;
+    border: solid white ;
     display: block;
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 85%;
+    border-radius: 50%;
     display: flex;
     justify-content: flex-end;
 
@@ -68,6 +68,8 @@ img {
     bottom: 0;
     width: 100%;
     flex: fit-content;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Style the links inside the navigation bar */
